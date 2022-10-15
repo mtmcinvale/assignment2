@@ -1,0 +1,76 @@
+I went through the Git Lab Tutorials on Saturday, October 15th, 2022.
+I setup my Github account around March of 2022.
+My respository: https://github.com/mtmcinvale/assignment2
+
+1.
+[master c57f37a] Updated information files
+ 1 file changed, 2 insertions(+)
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 384 bytes | 384.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/mtmcinvale/assignment2.git
+   f4975e5..c57f37a  master -> master
+
+2.
+There have been seven commits in total, and I got this information
+using "git log".
+
+3.
+Wed Sep 25 18:33:08 2019, and I got this information with the same command,
+"git log".
+
+4.
+Two reasons branches are used in git respositories:
+one, they can be used for experimenting with new features,
+and second, they allow for sending pushes to the remote respository
+so that staff running the project can handle the merging process.
+
+5.
+A git log displays the history of commits for the given respository
+cloned in your local directory, and git status displays the ways in
+which your local directory is not in agreement with the remote
+repository, as well as commits ready to be pushed to the 
+remote respository.
+
+6.
+git log --all Vehicle.h
+
+7.
+git log --all --grep="file"
+
+8.
+I. Inheritance is the act of defining data types based upon 
+   previously defined data types.
+II. Polymorphism is having multiple data types be able to use
+    the same tool. In this case, the tool would be conisdered 
+    polymorphic.
+III. Encapsulation can be put into two camps:
+	a) Data Encapsulation: A description of an object
+	   denoting that all possible interactions and information
+	   relating to the real thing the object is representing
+	   is containable within the object.
+	b) Physical Encapsulation: A description of an object
+	   where its methods (i.e. the implementation of the
+	   object) is hidden from the outside. Put another
+	   way, you would need no understanding of how
+	   the object was put together in order to properly
+	   interact with the object.
+
+9. 
+The difference is that the Integration Manager workflow
+has one individual that deals with merging all incoming
+push requests, while the Dictator and Lieutenants workflow
+has multiple Lieutenants that merge only a share of the push
+requests, and then send them off to the dictator to merge
+all of the work of the Lieutenants.
+
+10.
+By having there be many people merging only portions of
+the push requests, it decreases the time it takes to
+merge new updates to the main branch. As well, Miller's 
+Law would imply that it would be easier for those merging since 
+they wouldn't be going thorugh an exorbitant amount of requests.
